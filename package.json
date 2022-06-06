@@ -1,6 +1,6 @@
 {
   "name": "@nrjwolf/color-log",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Colorize your logs",
   "main": "dist/app.js",
   "types": "dist/app.d.ts",
