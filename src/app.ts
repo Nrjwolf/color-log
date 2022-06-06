@@ -1,3 +1,25 @@
+export { }
+declare global {
+    interface String {
+        prefix(pre: string): string
+
+        white(): string
+        yellow(): string
+        red(): string
+        green(): string
+        blue(): string
+        purple(): string
+        cyan(): string
+
+        redBg(): string
+        greenBg(): string
+        yellowBg(): string
+        blueBg(): string
+        purpleBg(): string
+        cyanBg(): string
+    }
+}
+
 const color = {
     // color
     'white': '\u001b[0m',
@@ -15,25 +37,6 @@ const color = {
     'blueBg': '\u001b[1;44m',
     'purpleBg': '\u001b[1;45m',
     'cyanBg': '\u001b[1;46m',
-}
-
-interface String {
-    prefix(pre: string): string
-
-    white(): string
-    yellow(): string
-    red(): string
-    green(): string
-    blue(): string
-    purple(): string
-    cyan(): string
-
-    redBg(): string
-    greenBg(): string
-    yellowBg(): string
-    blueBg(): string
-    purpleBg(): string
-    cyanBg(): string
 }
 
 String.prototype.white = function () { return `${color.white}${this}${color.white}` }

@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const color = {
     // color
     'white': '\u001b[0m',
@@ -28,4 +29,4 @@ String.prototype.greenBg = function () { return `${color.greenBg}${this}${color.
 String.prototype.yellowBg = function () { return `${color.yellowBg}${this}${color.white}`; };
 String.prototype.purpleBg = function () { return `${color.purpleBg}${this}${color.white}`; };
 String.prototype.cyanBg = function () { return `${color.cyanBg}${this}${color.white}`; };
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=app.js.map
