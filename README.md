@@ -9,13 +9,19 @@ Helps you to colorize you logs
 In terminal/console type:
 
 ```
-yarn install simple-string-extensions
+yarn add @nrjwolf/color-log
+```
+
+or
+
+```
+npm install @nrjwolf/color-log
 ```
 
 Somewhere early in code use:
 
 ```typescript
-import 'simple-string-extensions';
+import 'nrjwolf/color-log'
 ```
 
 Finally in code:
