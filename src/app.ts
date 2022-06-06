@@ -1,8 +1,6 @@
 export { }
 declare global {
     interface String {
-        prefix(pre: string): string
-
         white(): string
         yellow(): string
         red(): string
