@@ -1,0 +1,22 @@
+{
+  "name": "@nrjwolf/color-log",
+  "version": "1.0.0",
+  "description": "Colorize your logs",
+  "main": "lib/index.js",
+  "types": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nrjwolf/color-log.git"
+  },
+  "author": "nrjwolf <nrjwolf@gmail.com>",
+  "devDependencies": {
+    "typescript": "^4.7.3"
+  },
+  "scripts": {
+    "r": "node lib/app.js",
+    "start": "ts-node-dev --respawn src/app.ts",
+    "build": "tsc -p ."
+  },
+  "license": "MIT",
+  "dependencies": {}
+}
