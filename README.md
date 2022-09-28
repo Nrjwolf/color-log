@@ -21,7 +21,7 @@ npm install @nrjwolf/color-log
 Somewhere early in code use:
 
 ```typescript
-import 'nrjwolf/color-log'
+import '@nrjwolf/color-log'
 ```
 
 Finally in code:
